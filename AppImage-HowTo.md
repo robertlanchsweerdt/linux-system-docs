@@ -1,11 +1,9 @@
 # How to Add and Update an AppImage
 
-A distributor-agnostic procedure for integrating any AppImage into an
-`~/Applications`-based Linux desktop. It covers making the file executable,
-giving it a stable name, installing its icon into the FreeDesktop icon theme,
-creating a `.desktop` launcher entry, and updating to a new version without
-breaking anything. It does not assume any particular vendor, naming scheme, or
-icon layout.
+A distributor-agnostic guide for integrating any AppImage into a Linux
+desktop with stable naming, FreeDesktop icons, `.desktop` launcher entries,
+and version updates. Written for AI agents to produce terminal commands for
+the user to run.
 
 The examples assume a Wayland compositor with a launcher that reads standard
 FreeDesktop `.desktop` files (e.g. Niri + DankMaterialShell). Adjust the paths
